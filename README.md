@@ -1,2 +1,0 @@
-# React-LuLu
-Clone LuLu
