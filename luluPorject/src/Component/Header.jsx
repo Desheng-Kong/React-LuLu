@@ -19,18 +19,23 @@ const Header = () => {
             <div className='flex justify-between items-center'>
                 <nav >
                     <ul className='flex space-x-4'>
-                        <li className=' relative group'>
-                            <a href="#" className="text-black">Home</a>
-                            <span className="
-                            block w-full h-0.5 bg-black  bg-opacity-0 absolute bottom-0 left-0 transform  
-                             group-hover:  bg-opacity-1 transition-transform ">
-                            </span>
+                        <li className='relative group'>
+                            <a href="#" className="text-black text-xs">Track Order</a>
+                            <span className="block w-full h-0.5 absolute bg-black bg-opacity-0 group-hover:bg-opacity-100"> </span>
+                        </li>
+                        <li className='relative group'>
+                            <a href="#" className="text-black text-xs">Gift Cards</a>
+                            <span className="block w-full h-0.5 absolute bg-black bg-opacity-0 group-hover:bg-opacity-100"> </span>
+                        </li>
+                        <li className='relative group'>
+                            <a href="#" className="text-black text-xs">Email Signup</a>
+                            <span className="block w-full h-0.5 absolute bg-black bg-opacity-0 group-hover:bg-opacity-100"> </span>
+                        </li>
+                        <li className='relative group'>
+                            <a href="#" className="text-black text-xs">Stores</a>
+                            <span className="block w-full h-0.5 absolute bg-black bg-opacity-0 group-hover:bg-opacity-100"> </span>
                         </li>
                     </ul>
-                <button className='flex-initial m-2 text-xs'>Track Order</button>
-                <button className='flex-initial m-2 text-xs'>Gift Cards</button>
-                <button className='flex-initial m-2 text-xs'>Email Signup</button>
-                <button className='flex-initial m-2 text-xs'>Stores</button>
                 </nav>
                 
                 <div className='flex-initial m-2 text-xs'>
