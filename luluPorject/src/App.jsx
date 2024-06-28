@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Component/Header.jsx'
 import Hero from './Component/Hero.jsx'
 import Body from './Component/Body.jsx'
+import Tags from './Component/Tags.jsx'
 const App = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const App = () => {
     <Header/>
     <Hero/>
     <Body/>
+    <Tags/>
     </div>
     </>
   )
