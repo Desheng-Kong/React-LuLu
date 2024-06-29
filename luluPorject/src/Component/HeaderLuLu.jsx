@@ -20,7 +20,7 @@ const HeaderLuLu = () => {
       <div className='flex-initial flex justify-between items-center'>
         <div className='flex-initial items-center flex'>
           <img className='w-5 -mr-6 z-10' src={searchIcon}/>
-          <input className='w-30 px-6 py-3 p border-solid border border-black rounded' placeholder='Search gear,activiy'/>
+          <input className='w-30 px-6 py-3  border-solid border border-black rounded' placeholder='Search gear,activiy'/>
           <div className='flex-initial flex items-center'>
             <img className='h-7 m-2 cursor-pointer'src={userIcon}/>
             <img className='h-7 m-2 cursor-pointer'src={heart}/>
