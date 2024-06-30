@@ -2,7 +2,9 @@ import React from 'react'
 
 const Inbox = () => {
   return (
-    <div className=' flex flex-col justify-center items-center bg-gray-100 px-8 py-2 space-y-4 my-8 border border-gray-200'>
+    <>
+     <hr className='h-1'/>
+     <div className=' flex flex-col justify-center items-center px-8 py-2 space-y-4 mt-8'>
         <p className='text-3xl font-semibold'>Our freshest gear. Straight to your inbox.</p>
 
         <p className='text-xl font-semibold'>Be first to know about our newest products, limited-time offers, community events, and more.</p>
@@ -22,6 +24,8 @@ const Inbox = () => {
         </div>
         <p className='text-xs'>We respect your privacy and won't spam you. Unsubscribe at anytime. To learn more, see our <a href='#' className='underline'>privacy policy.</a></p>
     </div>
+    <hr className='h-1'/>
+    </>
   )
 }
 

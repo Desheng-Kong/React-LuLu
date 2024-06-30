@@ -1,8 +1,7 @@
 import React from 'react'
 import BG1 from '../assets/womenBC1.webp'
 import BG2 from '../assets/womenBC2.webp'
-
-
+import BG3 from '../assets/womenBC3.webp'
 
 const BigCard = () => {
   return (
@@ -24,7 +23,7 @@ const BigCard = () => {
             hover:bg-black hover:text-white translate-x-0'>WOMEN"S TANKS </button>
         </div>
         <div className='flex-col'>
-            <img src={BG2}/>
+            <img src={BG3}/>
             <p className='text-2xl font-bold mt-3'>Love at first wear.</p>
             <p className='text-xs my-2'>Minimalist silhouettes to layer up or down for infinite flattering explorations.  </p>
             <button className=' bg-white rounded w-30 p-4 border-2 border-black text-x font-bold my-2

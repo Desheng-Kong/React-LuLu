@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-      <div className='flex flex-row border border-solid justify-between p-5 border-gray-400 -mr-1'>
+      <div className='flex flex-row justify-between p-5'>
         <ul className='flex flex-col space-y-2'>
           <li className='relative group'>
             <a href="#" className="text-black text-xs font-semibold inline-block relative">
