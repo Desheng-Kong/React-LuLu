@@ -7,13 +7,13 @@ const Header = () => {
    
   return (
     <>
-      <div className=' absolute top-0 z-30 flex flex-row items-center bg-gray-100 h-20 gap-x-96 '>
+      <div className=' top-0 z-30 flex flex-row items-center bg-gray-100 h-20 gap-x-96 '>
         {/* THE LEFT PART */}
-        <a href="#" className="text-black hover:underline mr-72">Enjoy free express shipping and free returns. Learn More.</a>
+        <a href="#" className="text-black hover:underline">Enjoy free express shipping and free returns. Learn More.</a>
         {/* THE RIGHT PART */}
         <div className='flex-initial'>
           <div className='flex justify-between items-center'>
-            <nav className='mr-10'>
+            <nav className=''>
               <ul className='flex space-x-6'>
                 <li className='relative group'>
                   <a href="#" className="text-black">Track Order</a>
