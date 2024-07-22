@@ -7,14 +7,15 @@ import Inbox from './Component/Inbox.jsx'
 import HeaderLuLu from './Component/HeaderLuLu.jsx'
 const App = () => {
   return (
-    <>
-    <Header/>
-    <HeaderLuLu/>
-    <Hero/>
-    <Body/>
-    <Inbox/>
-    <Footer/>
-    </>
+    <div className='max-w-[1200px] m-auto'>
+      <Header/>
+      <HeaderLuLu></HeaderLuLu>
+      <Hero></Hero>
+      <Body></Body>
+      <Inbox/>
+      <hr className='h-1'></hr>
+      <Footer></Footer>
+    </div>
   )
 }
 

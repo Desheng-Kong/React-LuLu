@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: 
+    {
+      gridTemplateColumns: {
+        // 定义自定义的模板列
+        '30-auto': '30% auto',
+      }
+    },
   },
   plugins: [],
 }

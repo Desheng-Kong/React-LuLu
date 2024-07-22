@@ -6,13 +6,13 @@ import MidSection from './MidSection.jsx'
 
 const Body = () => {
   return (
-    <>
-    <LoungeWear/>
-    <BigCardSection/>
-    <MidSection/>
-    <LoungeWear/>
-    <BigCardSection/>
-    </>
+    <div className='max-w-full m-auto grid grid-cols-1 gap-[10px]'>
+      <LoungeWear/>
+      <BigCardSection/>
+      <MidSection/>
+      <LoungeWear/>
+      <BigCardSection/>
+    </div>
   )
 }
 
