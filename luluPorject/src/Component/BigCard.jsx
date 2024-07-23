@@ -5,7 +5,7 @@ import BG3 from '../assets/womenBC3.webp'
 
 const BigCard = () => {
   return (
-    <div className='bg-blue-500 '>
+    <div className='xl:bg-blue-500 lg:bg-pink-600'>
       <div className='flex flex-col justify-center items-center'>
           <button className='
           bg-white text-black rounded my-12 px-2 py-4 border-2 border-black text-x font-bold w-32 
@@ -13,7 +13,7 @@ const BigCard = () => {
           
           ' >ALIGN SHOP</button>
       </div>
-      <div className='flex flex-row space-x-3 '>
+      <div className='flex flex-row space-x-3'>
           <div className='flex-col'>
               <img src= {BG1}/>
               <p className='text-2xl font-bold mt-3'>Sweet everythings.</p>

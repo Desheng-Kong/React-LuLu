@@ -6,11 +6,13 @@ export default {
   ],
   theme: {
     extend: 
-    {
-      gridTemplateColumns: {
-        // 定义自定义的模板列
-        '30-auto': '30% auto',
-      }
+    { 
+      screens: {
+        'xs': '380px', 
+        'md': '768px',
+        'lg': '950px',
+        'xl': '1024px',
+      },
     },
   },
   plugins: [],

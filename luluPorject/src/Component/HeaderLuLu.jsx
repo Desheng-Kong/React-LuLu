@@ -8,38 +8,34 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const HeaderLuLu = () => {
   return (
-    <div className='max-w-[1200px] m-auto px-[15px] py-[20px] mt-[30px] grid grid-cols-[auto_30%] bg-green-700'>
-      <GiHamburgerMenu className='hidden'/>
-      <ul className=''>
-        <img src={logo} className='' />
-        <li className=''>
-          <a href="#" className="">WOMEN</a>
-          
-        </li>
-        <li className=''>
-          <a href="#" className="">MEN</a>
-          
-        </li>
-        <li className=''>
-          <a href="#" className="">ACCESSORIES</a>
-          
-        </li>
-        <li className=''>
-          <a href="#" className="">SHOES</a>
-          
-        </li>
-        <li className=''>
-          <a href="#" className="">COMMUNITY</a>
-          
-        </li>
-      </ul>
-      <div className=''>
-        <img className='w-6 h-6 z-10 absolute left-2' src={searchIcon} />
-        <div className=''>
-          <input className='w-72 h-16 border-solid border px-10 border-black rounded-lg placeholder:text-gray-500 hover:placeholder:text-black' placeholder='Search gear, activity' />
-          <a href='#'><img className='h-7 m-2'src={userIcon}/></a>
-          <a href='#'><img className='h-7 m-2'src={heart}/></a>
-          <a href='#'><img className='h-7 m-2'src={miniCart}/></a>
+    <div className='xl:grid grid-cols-1 gap-[64px] max-w-[1200px] m-auto px-[15px] py-[20px] mt-[30px] '>
+      <div className='flex justify-between items-center gap-4'>
+        {/* 左侧菜单图标和Logo */}
+        <div className='flex items-center'>
+          <GiHamburgerMenu className='xl:hidden lg:block md:block mr-4'/>
+          <img src={logo} className='xl:m-0'/>
+        </div>
+
+        {/* 中间导航菜单 */}
+        <ul className='hidden xl:flex items-center gap-[16px] flex-grow'>
+          <li><a href="#" >WOMEN</a></li>
+          <li><a href="#" >MEN</a></li>
+          <li><a href="#" >ACCESSORIES</a></li>
+          <li><a href="#" >SHOES</a></li>
+          <li><a href="#" >COMMUNITY</a></li>
+        </ul>
+
+        {/* 搜索框 */}
+        <div className='relative flex-grow max-w-[256px]'>
+          <img className='absolute top-[18px] left-[10px] max-w-6 max-h-6 z-10' src={searchIcon}/>
+          <input className='w-full pl-[40px] py-[16px] border-solid border border-black rounded-lg placeholder:text-gray-500 hover:placeholder:text-black' placeholder='Search gear, activity' />
+        </div>
+
+        {/* 右侧图标 */}
+        <div className='flex items-center gap-10'>
+          <a href='#'><img className='max-w-8' src={userIcon}/></a>
+          <a href='#'><img className='max-w-8' src={heart}/></a>
+          <a href='#'><img className='max-w-8' src={miniCart}/></a>
         </div>
       </div>
     </div>

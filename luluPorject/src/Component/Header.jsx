@@ -6,11 +6,11 @@ const Header = () => {
    
   return (
     <>
-      <div className='max-w-[1200px] mx-auto'>
+      <div className='max-w-[1200px] mx-auto '>
         <a href="#" className="text-black mx-auto hover:underline flex justify-center ">Enjoy free express shipping and free returns. Learn More.</a>
-        <nav className='max-w-[1200px] mx-auto mt-7 grid grid-cols-[auto_30%] px-4 py-5 bg-red-600'>
-            <div></div>
-            <ul className=''>
+        <nav className='max-w-[1200px] mx-auto mt-7 grid grid-cols-1 px-4 py-5 bg-red-600'>
+            
+            <ul className='grid grid-cols-5 '>
               <li className=''>
                 <a href="#" className="text-black">Track Order</a>
               </li>
