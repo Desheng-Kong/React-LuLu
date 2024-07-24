@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const HeaderLuLu = () => {
   return (
-    <div className='xl:grid grid-cols-1 gap-[64px] max-w-[1200px] m-auto px-[15px] py-[20px] mt-[30px] '>
+    <div className='xl:grid grid-cols-1 gap-[64px] max-w-[1350px] m-auto px-[15px] py-[10px] mt-[30px] bg-red-500  items-center'>
       <div className='flex justify-between items-center gap-4'>
         {/* 左侧菜单图标和Logo */}
         <div className='flex items-center'>
@@ -17,7 +17,7 @@ const HeaderLuLu = () => {
         </div>
 
         {/* 中间导航菜单 */}
-        <ul className='hidden xl:flex items-center gap-[16px] flex-grow'>
+        <ul className='hidden xl:flex items-center gap-[28px] flex-grow text-sm font-semibold'>
           <li><a href="#" >WOMEN</a></li>
           <li><a href="#" >MEN</a></li>
           <li><a href="#" >ACCESSORIES</a></li>
@@ -27,15 +27,15 @@ const HeaderLuLu = () => {
 
         {/* 搜索框 */}
         <div className='relative flex-grow max-w-[256px]'>
-          <img className='absolute top-[18px] left-[10px] max-w-6 max-h-6 z-10' src={searchIcon}/>
-          <input className='w-full pl-[40px] py-[16px] border-solid border border-black rounded-lg placeholder:text-gray-500 hover:placeholder:text-black' placeholder='Search gear, activity' />
+          <img className='absolute top-[16px] left-[10px] max-w-5 max-h-6 z-10' src={searchIcon}/>
+          <input className='w-full pl-[35px] py-[12px] border-solid border border-black rounded-lg placeholder:text-gray-500 hover:placeholder:text-black' placeholder='Search gear, activity' />
         </div>
 
         {/* 右侧图标 */}
         <div className='flex items-center gap-10'>
-          <a href='#'><img className='max-w-8' src={userIcon}/></a>
-          <a href='#'><img className='max-w-8' src={heart}/></a>
-          <a href='#'><img className='max-w-8' src={miniCart}/></a>
+          <a href='#'><img className='max-w-6' src={userIcon}/></a>
+          <a href='#'><img className='max-w-6' src={heart}/></a>
+          <a href='#'><img className='max-w-6' src={miniCart}/></a>
         </div>
       </div>
     </div>

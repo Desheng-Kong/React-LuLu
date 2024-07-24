@@ -6,7 +6,7 @@ import MidSection from './MidSection.jsx'
 
 const Body = () => {
   return (
-    <div className='max-w-full m-auto grid grid-cols-1 gap-[10px]'>
+    <div className='max-w-full m-auto grid grid-cols-1 gap-[10px] px-[16px]'>
       <LoungeWear/>
       <BigCardSection/>
       <MidSection/>
